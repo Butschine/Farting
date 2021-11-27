@@ -1,0 +1,60 @@
+h1 {
+  font-family: 'Zen Antique Soft', serif;
+  text-align: center;
+}
+
+summary {
+  font-family: 'Zen Antique Soft', serif;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #04AA6D;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+.fart {
+  float: left;
+}
+

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de">
+ <head>
+  <meta charset="utf-8" />
+  <title>Sonstiges</title>
+  <link rel="stylesheet" href="sonstigesCSS.css" type="text/css">
+  <script>
+ function getRandomImage() {
+var randomImage = new Array();
+
+
+randomImage[0] = "https://www.nasa.gov/sites/default/files/thumbnails/image/crab.jpg";
+randomImage[1] = "https://www.nasa.gov/sites/default/files/thumbnails/image/vela_lg.jpg";
+randomImage[2] = "https://www.nasa.gov/sites/default/files/pia17566_2.jpg";
+randomImage[3] = "https://www.nasa.gov/sites/default/files/thumbnails/image/rcw103_0.jpg";
+randomImage[4] = "https://www.nasa.gov/sites/default/files/thumbnails/image/ic443.jpg";
+randomImage[5] = "http://astronomynow.com/wp-content/uploads/2015/10/W44_G34-7-0-4_1725x1725.jpg";
+
+
+var number = Math.floor(Math.random()*randomImage.length);
+
+
+return document.getElementById("result").innerHTML = '<img src="'+randomImage[number]+'" width="700" height="600" />';
+}
+  </script>
+</head>
+<body>
+  <ul>
+    <li><a href="Neutronensterne.html">Home</a></li>
+    <li><a href="Was-Ist-ein-Neutronenstern.html">Was ist das</a></li>
+    <li><a href="Wie-sind-Neutronensterne-aufgebaut.html">Aufbau</a></li>
+    <li style="float:right"><a class="active" href="Sonstiges.html">Sonstiges</a></li>
+  </ul>
+<center><h2 style="color:green"> Neutronenstern Generator </h2></center>
+  <center><h4 style="color:green"> Hier gibt es verschiedene Bilder von Neutronensternen</h4></center>
+  <center><button onclick = "getRandomImage()"> Generate Image </button></center>
+<br> <br>
+<div id="result" align="center"> </div>
+</body>
+</html>
