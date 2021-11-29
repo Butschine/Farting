@@ -1,10 +1,10 @@
 h1 {
-  font-family: 'Zen Antique Soft', serif;
+  font-family: "Zen Antique Soft", serif;
   text-align: center;
 }
 
 summary {
-  font-family: 'Zen Antique Soft', serif;
+  font-family: "Zen Antique Soft", serif;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ ul {
 
 li {
   float: left;
-  border-right:1px solid #bbb;
+  border-right: 1px solid #bbb;
 }
 
 li:last-child {
@@ -34,11 +34,11 @@ li a {
 }
 
 li a:hover:not(.active) {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
 }
 
 body {
@@ -58,3 +58,11 @@ h2 {
   float: left;
 }
 
+.fart2 {
+  float: right;
+  background-color: #000000;
+}
+
+.fart2:hover:not(.active2) {
+  background-color: none;
+}
